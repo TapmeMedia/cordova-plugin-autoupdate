@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-autoupdate",
+  "version": "0.1.0",
+  "homepage": "https://github.com/TapmeMedia/cordova-plugin-autoupdate",
+  "authors": [
+    "Maurits van Mastrigt <maurits@nerdieworks.nl>"
+  ],
+  "description": "Cordova Plugin AutoUpdate",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fetch": "~0.9.0"
+  }
+}

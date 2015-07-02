@@ -13,6 +13,7 @@
 		<engine name="cordova" version=">=3.7.0" />
 	</engines>
 
+	<js-module src="www/vendor/fetch/fetch.js" name="FetchPolyfill" />
 	<js-module src="www/AutoUpdate.js" name="AutoUpdate">
 		<clobbers target="cordova.autoupdate" />
 	</js-module>
