@@ -9,8 +9,17 @@
 	<keywords>cordova,plugin,autoupdate,hotpatch,assets,js,css</keywords>
 	<repo>https://github.com/TapmeMedia/cordova-plugin-autoupdate.git</repo>
 	<issue>https://github.com/TapmeMedia/cordova-plugin-autoupdate/issues</issue>
+	<engines>
+		<engine name="cordova" version=">=3.7.0" />
+	</engines>
 
 	<js-module src="www/AutoUpdate.js" name="AutoUpdate">
 		<clobbers target="cordova.autoupdate" />
 	</js-module>
+
+	<dependency id="cordova-plugin-network-information" url="https://github.com/apache/cordova-plugin-network-information.git" commit="r1.0.1" />
+
+	<dependency id="cordova-plugin-file" url="https://github.com/apache/cordova-plugin-file.git" commit="r2.1.0" />
+	<dependency id="cordova-plugin-file-transfer" url="https://github.com/apache/cordova-plugin-file-transfer.git" commit="r1.2.0" />
+	<!--<dependency id="cordova-plugin-whitelist" url="https://github.com/apache/cordova-plugin-whitelist.git" commit="r1.1.0" />-->
 </plugin>
