@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-autoupdate"
+	version="0.1.0-dev">
+	<name>Autoupdate</name>
+	<description>Cordova plugin for automatically updating assets</description>
+	<license>MIT</license>
+	<keywords>cordova,plugin,autoupdate,hotpatch,assets,js,css</keywords>
+	<repo>https://github.com/TapmeMedia/cordova-plugin-autoupdate.git</repo>
+	<issue>https://github.com/TapmeMedia/cordova-plugin-autoupdate/issues</issue>
+
+	<js-module src="www/AutoUpdate.js" name="AutoUpdate">
+		<clobbers target="cordova.autoupdate" />
+	</js-module>
+</plugin>
