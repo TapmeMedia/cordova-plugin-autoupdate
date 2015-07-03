@@ -37,5 +37,6 @@ The server can then respond with newer versions:
 ## Usage
 
 1. Install plugin: `cordova plugin add https://github.com/TapmeMedia/cordova-plugin-autoupdate.git`
-1. Set up server: https://github.com/TapmeMedia/cordova-plugin-autoupdate/wiki/Server
-1. Configure plugin: https://github.com/TapmeMedia/cordova-plugin-autoupdate/wiki/Plugin-configuration
+1. [Set up server](https://github.com/TapmeMedia/cordova-plugin-autoupdate/wiki/Server)
+1. [Configure plugin](https://github.com/TapmeMedia/cordova-plugin-autoupdate/wiki/Plugin-configuration)
+1. Build and run app

@@ -15,7 +15,7 @@
 
 	<js-module src="www/vendor/fetch/fetch.js" name="FetchPolyfill" />
 	<js-module src="www/AutoUpdate.js" name="AutoUpdate">
-		<clobbers target="cordova.autoupdate" />
+		<clobbers target="cordova.plugins.autoupdate" />
 	</js-module>
 
 	<dependency id="cordova-plugin-network-information" url="https://github.com/apache/cordova-plugin-network-information.git" commit="r1.0.1" />
