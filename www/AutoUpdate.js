@@ -133,7 +133,7 @@ var AutoUpdate = {
 	},
 
 	getVersion: function(path) {
-		return localStorage['cordova-plugin-autoupdate:' + path] && JSON.parse(localStorage['cordova-plugin-autoupdate:' + path]) || false;
+		return localStorage['cordova-plugin-autoupdate:' + path] || false;
 	},
 
 	update: function(files,updates){
