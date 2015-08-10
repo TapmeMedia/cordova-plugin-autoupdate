@@ -10,7 +10,7 @@
 	<repo>https://github.com/TapmeMedia/cordova-plugin-autoupdate.git</repo>
 	<issue>https://github.com/TapmeMedia/cordova-plugin-autoupdate/issues</issue>
 	<engines>
-		<engine name="cordova" version=">=3.7.0" />
+		<engine name="cordova" version=">=3" />
 	</engines>
 
 	<js-module src="www/vendor/fetch/fetch.js" name="FetchPolyfill" />
