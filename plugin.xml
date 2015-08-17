@@ -15,7 +15,7 @@
 
 	<js-module src="www/vendor/fetch/fetch.js" name="fetch">
 		<runs/>
-	</js-mofule>
+	</js-module>
 	<js-module src="www/AutoUpdate.js" name="AutoUpdate">
 		<clobbers target="cordova.plugins.autoupdate" />
 	</js-module>
