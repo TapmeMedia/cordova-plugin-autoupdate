@@ -85,18 +85,19 @@ var AutoUpdate = {
 
 			Object.keys(files).forEach(function(path){
 
+				var version = AutoUpdate.getVersion(path);
 				var file = files[path];
 				var path = paths[path] || path;
 
 				switch (file.type) {
 					case 'js':
 						var script = document.createElement('script');
-						script.src = path;
+						script.src = path + '?version=' + version;
 						document.getElementsByTagName("head")[0].appendChild( script );
 						break;
 					case 'css':
 						var link = document.createElement('link');
-						link.href = path;
+						link.href = path + '?version=' + version;
 						link.rel = 'stylesheet';
 						document.getElementsByTagName("head")[0].appendChild( link );
 						break;
