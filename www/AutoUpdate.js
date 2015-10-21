@@ -49,7 +49,7 @@ var AutoUpdate = {
 							resolve(Object.keys(updates).length);
 						});
 					}).catch(function(){
-						defer.reject();
+						reject();
 					});
 			}
 
